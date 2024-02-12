@@ -1,6 +1,8 @@
 // src/components/Background.jsx
 import React, { useState, useEffect } from 'react';
 import Header from '../components/Header';
+import Navbar from './Navbar';
+import PlacesSection from './PlacesSection';
 
 const Background = () => {
     // Array of image URLs for the slideshow
@@ -27,8 +29,9 @@ const Background = () => {
     }, [images.length]);
 
     return (
-        <div className="absolute inset-0 z-0 h-screen w-screen overflow-hidden">
-            <div className="h-3/4 absolute inset-x-0 top-0 flex items-center justify-center">
+        <div className="relative inset-0 z-0 h-screen w-screen overflow-x-hidden">
+            <Navbar />
+            <div className="h-3/4 relative inset-x-0 top-0 flex items-center justify-center">
                 {images.map((imageUrl, index) => (
                     <img
                         key={index}
@@ -48,6 +51,7 @@ const Background = () => {
                     ))}
                 </div>
             </div>
+            <PlacesSection />
         </div>
     );
 };
