@@ -11,17 +11,17 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white bg-opacity-80 text-black w-full py-3 absolute z-10">
-      <div className="container mx-auto flex justify-between items-center mr-10">
+      <div className="container mx-auto flex justify-between items-center pl-5 md:pl-15 lg:pl-20">
         {/* Left side */}
         <div className="flex items-center navbar-left">
-          <a href="#" className="navbar-logo font-bold">Ages Rock and Associates Corp</a>
+          <a href="#" className="font-bold text-xl md:text-xl lg:text-2xl">Ages Rock and Associates Corp</a>
         </div>
 
         {/* Right side */}
         <div className="hidden md:flex items-center text-base navbar-right">
-          <a href="#" className="mr-7">Home</a>
-          <a href="#" className="mr-7">Explore</a>
-          <a href="#" className="mr-7">About</a>
+          <a href="#" className="mr-6">Home</a>
+          <a href="#" className="mr-6">Explore</a>
+          <a href="#" className="mr-6">About</a>
           <a href="#">Contact</a>
         </div>
 
