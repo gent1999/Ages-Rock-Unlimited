@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Header from '../components/Header';
 import Navbar from './Navbar';
 import PlacesSection from './PlacesSection';
+import Footer from './Footer';
 
 const Background = () => {
     // Array of image URLs for the slideshow
@@ -52,6 +53,7 @@ const Background = () => {
                 </div>
             </div>
             <PlacesSection />
+            <Footer />
         </div>
     );
 };

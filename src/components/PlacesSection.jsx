@@ -10,26 +10,30 @@ const PlacesSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Destination Box 1 */}
             <div className="bg-white p-6 rounded-lg shadow-lg">
+              <img src="/assets/images/statue_of_liberty.jpg" alt="Statue of Liberty" className="mb-4 rounded-lg object-cover w-full h-48" />
               <h3 className="text-xl font-bold mb-4">Statue of Liberty</h3>
-              <p className="text-gray-600">Discover the vibrant energy of the city that never sleeps.</p>
+              <p className="text-gray-600">Discover the colossal neoclassical sculpture on Liberty Island in New York Harbor.</p>
             </div>
 
             {/* Destination Box 2 */}
             <div className="bg-white p-6 rounded-lg shadow-lg">
+              <img src="/assets/images/empire_state_building.jpg" alt="Empire State Building" className="mb-4 rounded-lg object-cover w-full h-48" />
               <h3 className="text-xl font-bold mb-4">Empire State Building</h3>
-              <p className="text-gray-600">Experience the romance and charm of the City of Light.</p>
+              <p className="text-gray-600">Experience the 102-story Art Deco skyscraper in Midtown Manhattan.</p>
             </div>
 
             {/* Destination Box 3 */}
             <div className="bg-white p-6 rounded-lg shadow-lg">
-              <h3 className="text-xl font-bold mb-4">World Trade Center</h3>
-              <p className="text-gray-600">Immerse yourself in the rich culture and modern marvels of Tokyo.</p>
+              <img src="/assets/images/one_world_trade_center.jpg" alt="One World Trade Center" className="mb-4 rounded-lg object-cover w-full h-48" />
+              <h3 className="text-xl font-bold mb-4">One World Trade Center</h3>
+              <p className="text-gray-600">Immerse yourself in the main building of the rebuilt World Trade Center complex in Lower Manhattan.</p>
             </div>
 
             {/* Destination Box 4 */}
             <div className="bg-white p-6 rounded-lg shadow-lg">
+              <img src="/assets/images/the_edge.jpg" alt="The Edge" className="mb-4 rounded-lg object-cover w-full h-48" />
               <h3 className="text-xl font-bold mb-4">The Edge</h3>
-              <p className="text-gray-600">Explore the stunning landscapes and iconic landmarks of Sydney.</p>
+              <p className="text-gray-600">Explore the highest outdoor sky deck in the Western Hemisphere with 360-degree views of New York City.</p>
             </div>
           </div>
         </div>
