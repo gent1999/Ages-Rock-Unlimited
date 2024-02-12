@@ -6,7 +6,7 @@ const Background = () => {
     // Array of image URLs for the slideshow
     const images = [
         '/assets/images/NYC1.jpg',
-        '/assets/images/DC1.jpg',
+        '/assets/images/NYC3.jpg',
         '/assets/images/NYC2.jpg'
     ];
 

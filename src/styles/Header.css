@@ -1,0 +1,14 @@
+/* src/styles/Header.css */
+
+/* Default styles */
+.header-text {
+    font-size: 4rem; /* Adjust as needed */
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 767px) {
+    .header-text {
+      font-size: 2rem; /* Adjust as needed */
+    }
+  }
+  

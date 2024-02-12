@@ -1,0 +1,33 @@
+/* Default styles */
+.navbar-left {
+    flex: 1;
+    /* Take up remaining space */
+}
+
+.navbar-logo {
+    font-size: 1.5rem;
+}
+
+.navbar-right {
+    margin-right: 3rem;
+}
+
+/* Tablet styles */
+@media (max-width: 1023px) {
+    .container {
+        padding-left: 2rem;
+        padding-right: 0rem;
+    }
+
+    .navbar-logo {
+        font-size: 1.3rem;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
