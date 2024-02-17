@@ -5,8 +5,8 @@ import Payment from './pages/Payment';
 const App = () => {
   return (
     <div>
-      {/* <Background /> */}
-      <Payment />
+      <Background />
+      {/* <Payment /> */}
     </div>
   );
 };
