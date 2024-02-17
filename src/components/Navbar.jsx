@@ -1,5 +1,5 @@
-// src/components/Navbar.jsx
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import '../styles/Navbar.css'; // Import the CSS file
 
 const Navbar = () => {
@@ -14,15 +14,15 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center pl-5 md:pl-15 lg:pl-20">
         {/* Left side */}
         <div className="flex items-center navbar-left">
-          <a href="#" className="font-bold text-xl md:text-xl lg:text-2xl">Ages Rock and Associates Corp</a>
+          <Link to="/" className="font-bold text-xl md:text-xl lg:text-2xl">Ages Rock and Associates Corp</Link>
         </div>
 
         {/* Right side */}
         <div className="hidden md:flex items-center text-base navbar-right">
-          <a href="#" className="mr-6">Home</a>
-          <a href="#" className="mr-6">Explore</a>
-          <a href="#" className="mr-6">About</a>
-          <a href="#">Contact</a>
+          <Link to="/" className="mr-6">Home</Link>
+          <Link to="/explore" className="mr-6">Explore</Link>
+          <Link to="/about" className="mr-6">About</Link>
+          <Link to="/contact">Contact</Link>
         </div>
 
         {/* Hamburger menu */}
@@ -41,10 +41,10 @@ const Navbar = () => {
         {/* Responsive menu */}
         {isMenuOpen && (
           <div className="md:hidden absolute top-16 left-0 w-full bg-white shadow-lg py-2 rounded-md text-center">
-            <a href="#" className="block py-2">Home</a>
-            <a href="#" className="block py-2">Explore</a>
-            <a href="#" className="block py-2">About</a>
-            <a href="#" className="block py-2">Contact</a>
+            <Link to="/" className="block py-2">Home</Link>
+            <Link to="/explore" className="block py-2">Explore</Link>
+            <Link to="/about" className="block py-2">About</Link>
+            <Link to="/contact" className="block py-2">Contact</Link>
           </div>
         )}
       </div>

@@ -3,9 +3,9 @@ import React from 'react';
 const PlacesSection = () => {
   return (
     <div className="overflow-x-hidden">
-      <section className="relative bg-gray-200 py-16">
+      <section className="relative bg-gray-200 py-12">
         <div className="container mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-8">Explore Our Destinations</h2>
+          <h2 className="text-4xl font-bold mb-14">Explore Our Destinations</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Destination Box 1 */}
@@ -35,6 +35,13 @@ const PlacesSection = () => {
               <h3 className="text-xl font-bold mb-4">The Edge</h3>
               <p className="text-gray-600">Explore the highest outdoor sky deck in the Western Hemisphere with 360-degree views of New York City.</p>
             </div>
+          </div>
+
+          {/* View All Button*/}
+          <div className="mt-14">
+            <button className="bg-blue-500 transition duration-300 hover:bg-blue-800 text-white font-bold py-2 px-6 rounded">
+              View All
+            </button>
           </div>
         </div>
       </section>
