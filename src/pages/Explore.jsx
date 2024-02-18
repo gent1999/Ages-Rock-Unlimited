@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import MostPopular from '../components/Explore/MostPopular';
 import ExploreHeader from '../components/Explore/ExploreHeader';
 import Footer from '../components/Footer';
+import CommonAttractions from '../components/Explore/CommonAttractions';
 
 const Explore = () => {
     // URL of the background image
@@ -25,6 +26,7 @@ const Explore = () => {
                 <ExploreHeader />
             </div>
             <MostPopular />
+            <CommonAttractions />
             <Footer />
         </div>
     )

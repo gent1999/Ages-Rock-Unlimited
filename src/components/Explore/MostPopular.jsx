@@ -14,9 +14,9 @@ const MostPopular = () => {
                     description="Breathtaking views of New York City from the top of the Empire State Building, an architectural marvel and one of the most famous landmarks in the world."
                 />
                 <DestinationCard
-                    imageUrl="/assets/images/statue_of_liberty2.jpg"
-                    title="Statue of Liberty"
-                    description="Explore the iconic Statue of Liberty, a symbol of freedom and democracy, standing tall against the New York skyline."
+                    imageUrl="/assets/images/liberty_cruise.jpg"
+                    title="Liberty Cruise"
+                    description="Experience the iconic Statue of Liberty up close with a Liberty Cruise, offering breathtaking views of the Statue and the NYC skyline."
                 />
                 <DestinationCard
                     imageUrl="/assets/images/one_world_trade_center2.jpg"
@@ -26,7 +26,7 @@ const MostPopular = () => {
             </div>
 
             <HorizontalLine />
-            
+
         </div>
     );
 };
