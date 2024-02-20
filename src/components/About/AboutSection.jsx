@@ -45,9 +45,9 @@ const AboutSection = () => {
 
             {/* Paragraph 4 */}
             <div className="container mx-auto py-8">
-                <h2 className="text-2xl font-bold mb-3">Our Expert Team</h2> {/* Adjusted font size for small screens */}
+                <h2 className="text-2xl font-bold mb-3">Diverse Business Offerings</h2> {/* Adjusted font size for small screens */}
                 <p className="text-xl leading-relaxed">
-                    With a customer-centric approach, Ages Rock and Associates Corp is equipped with high and medium-profile groups of professionals known for their integrity in various fields of business services and tourism. We pride ourselves on delivering best-in-class services by leveraging the expertise of our team, both directly and through affiliate partnerships.
+                    In addition to our tourism endeavors, we offer a range of business services, including advocacy, civic engagement, and paralegal assistance. Our advocacy and civic engagement efforts have contributed to professional and ethical development in the Queens community and government.
                 </p>
             </div>
 
@@ -78,10 +78,10 @@ const AboutSection = () => {
             <HorizontalLine />
 
             <div>
-                    <h2 className="text-xl font-semibold text-center py-20 pt-0"> {/* Center the text */}
-                        If there's anything else you’d like to know, feel free to <Link to="/contact" className="text-blue-500 hover:underline">contact us</Link>.
-                    </h2>
-                </div>
+                <h2 className="text-xl font-semibold text-center py-20 pt-0"> {/* Center the text */}
+                    If there's anything else you’d like to know, feel free to <Link to="/contact" className="text-blue-500 hover:underline">contact us</Link>.
+                </h2>
+            </div>
 
         </div>
     );
