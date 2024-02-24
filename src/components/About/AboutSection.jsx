@@ -15,7 +15,7 @@ const AboutSection = () => {
                 </div>
                 {/* Image */}
                 <div className="w-full md:w-1/2 flex justify-center mb-8 md:mb-0"> {/* Set width to full on small screens */}
-                    <img src="/assets/images/jamaica_queens.jpg" alt="Company Image" className="max-w-full h-auto md:max-h-80 rounded-lg shadow-md" /> {/* Made the image responsive */}
+                    <img src="/assets/images/salvation.jpg" alt="Company Image" className="max-w-full h-auto md:max-h-80 rounded-lg shadow-md" /> {/* Made the image responsive */}
                 </div>
             </div>
 
@@ -39,7 +39,7 @@ const AboutSection = () => {
                 </div>
                 {/* Image */}
                 <div className="md:w-1/2 flex justify-center">
-                    <img src="/assets/images/nyc_street.jpg" alt="Tourism Image" className="max-w-full max-h-80 rounded-lg shadow-md" />
+                    <img src="/assets/images/jamaica_queens.jpg" alt="Tourism Image" className="max-w-full max-h-80 rounded-lg shadow-md" />
                 </div>
             </div>
 
