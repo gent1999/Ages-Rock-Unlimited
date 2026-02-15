@@ -1,33 +1,33 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import AboutHeader from '../components/About/AboutHeader';
 import AboutSection from '../components/About/AboutSection';
 
 const About = () => {
-    // URL of the background image
-    const backgroundImageUrl1 = '/assets/images/NYC4.jpg';
-
     return (
-        <div className="relative inset-0 z-0 h-screen w-screen overflow-x-hidden">
-
+        <div className="relative inset-0 z-0 min-h-screen w-screen overflow-x-hidden">
             <Navbar />
 
-            <div className="h-3/5 relative inset-x-0 top-0 flex items-center justify-center">
-                {/* Render the background image */}
+            {/* Hero Banner */}
+            <div className="h-[50vh] relative flex items-center justify-center">
                 <img
-                    src={backgroundImageUrl1}
-                    alt="Background"
+                    src="/assets/images/NYC4.jpg"
+                    alt="New York City"
                     className="absolute inset-0 w-full h-full object-cover"
                 />
-                {/* Overlay a semi-transparent black layer */}
-                <div className="absolute inset-0 bg-black opacity-50"></div>
-                <AboutHeader />
+                <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70"></div>
+                <div className="relative z-10 text-center px-6">
+                    <p className="text-white/70 text-sm tracking-[0.3em] uppercase mb-3 font-light">Who We Are</p>
+                    <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
+                        About Ages Rock
+                    </h1>
+                </div>
             </div>
+
             <AboutSection />
             <Footer />
         </div>
-    )
-}
+    );
+};
 
 export default About;
